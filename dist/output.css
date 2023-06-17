@@ -838,6 +838,12 @@ video {
   color: rgb(38 186 164 / var(--tw-text-opacity));
 }
 
+@media not all and (min-width: 1536px) {
+  .max-2xl\:w-\[1440px\] {
+    width: 1440px;
+  }
+}
+
 @media not all and (min-width: 1024px) {
   .max-lg\:w-\[100\%\] {
     width: 100%;
