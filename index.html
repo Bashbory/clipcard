@@ -21,9 +21,10 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="bg-white">
-  <header class="container mx-auto  relative flex flex-col justify-center items-center">
-    <img src="./images/bg-header-desktop.png" alt="" class="object-fill mx-auto absolute top-0 w-full">
+<body class="bg-white w-[1440px] max-md:w-[100%]">
+  <header class=" mx-auto   flex flex-col justify-center items-center w-[100%] ">
+    <img src="./images/bg-header-desktop.png" alt="" class="object-fill mx-auto absolute top-0 right-0 w-[1440px] max-sm:hidden">
+    <img src="./images/bg-header-mobile.png" alt="" class="hidden object-fill mx-auto absolute top-0 right-0  max-sm:block">
     <div class="logo"><img src="./images/logo.svg" alt="" class="mt-28 "></div>
     <div class="flex flex-col justify-center items-center w-[685px] text-center max-sm:w-full ">
       <h1 class="font-bai text-[42px] font-bold pt-16 text-[#535455] max-md:text-[34px] max-md:px-4">A history of everything you copy</h1>
@@ -43,7 +44,7 @@
     </div>
     <div class=" pt-16  w-full flex max-sm:flex-col">
       <div class="w-1/2 relative max-sm:w-full">
-        <img src="./images/image-computer.png" alt="" class="absolute -left-20 max-sm:static max-sm:px-4">
+        <img src="./images/image-computer.png" alt="" class="absolute -left-40 max-sm:static max-sm:px-4">
       </div>
       <div class="flex flex-col  w-1/4 max-sm:w-full max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:px-4">
         <div class="">
@@ -118,8 +119,8 @@
 
 
 
-  <footer class=" bg-gray-100 container   mt-36 ">
-    <div class="max-w-screen-lg flex mx-auto justify-between items-center h-28 gap-24 max-sm:flex-col max-sm:h-full max-sm:gap-16">
+  <footer class=" bg-gray-100  mx-auto  mt-36 ">
+    <div class=" flex mx-auto justify-between max-w-screen-lg items-center h-28 gap-24 max-sm:flex-col max-sm:h-full max-sm:gap-16">
       <div class="max-sm:pt-16 ">
         <img src="./images/logo.svg" alt="" class="w-12">
       </div>
